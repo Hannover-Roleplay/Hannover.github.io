@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #f04a37;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #d9442f;
+}
+
+section {
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about, .community, .events, .contact {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label,
+.contact form input,
+.contact form textarea {
+    margin-bottom: 15px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #f04a37;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #d9442f;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
